@@ -12,7 +12,14 @@ El desarrollo fue abordado bajo un enfoque **AI-native**, utilizando **Claude Co
 
 El proyecto cuenta con dos implementaciones complementarias desarrolladas para testear mecánicas y escalabilidad:
 
-### 1. 🎬 Versión 3D (Unreal Engine)
+### 1. 🕹️ Versión 2D (Prototipo Arcade / Web) DESAROLLO FASE MEDIANA
+- **Motor / Framework:** JavaScript / Engine 2D
+- **Propósito:** Prototipado rápido para validar el loop principal de juego, respuesta de controles y equilibrio de velocidad/combate.
+- **Mecánicas clave:**
+  - Control arcade lateral / vista top-down con física 2D simplificada.
+  - Detección de colisiones y cálculo de daño según el impulso del vehículo.
+  
+### 2. 🎬 Versión 3D (Unreal Engine) EN DESAROLLO FASE INICIAL
 - **Motor:** Unreal Engine
 - **Arquitectura:** Lógica modular desarrollada junto a Claude Code CLI (Blueprints y C++).
 - **Mecánicas clave:**
@@ -21,12 +28,7 @@ El proyecto cuenta con dos implementaciones complementarias desarrolladas para t
   - Cámara en tercera persona dinámica con respuesta de impacto e inercia.
   - Manejo de estados de animación para el caballero y la postura de combate sobre el vehículo.
 
-### 2. 🕹️ Versión 2D (Prototipo Arcade / Web)
-- **Motor / Framework:** JavaScript / Engine 2D
-- **Propósito:** Prototipado rápido para validar el loop principal de juego, respuesta de controles y equilibrio de velocidad/combate.
-- **Mecánicas clave:**
-  - Control arcade lateral / vista top-down con física 2D simplificada.
-  - Detección de colisiones y cálculo de daño según el impulso del vehículo.
+
 
 ---
 
